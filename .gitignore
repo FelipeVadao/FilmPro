@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Chaves de API (ANTHROPIC_API_KEY, OMDB_API_KEY)
+.env
+
+# Export de design estático, não usado pela aplicação
+design/
