@@ -10,7 +10,7 @@ Comunique-se com o usuário **sempre em português-br**. Isso vale para resposta
 
 FilmPro é um serviço FastAPI que devolve recomendações de filmes estruturadas. Quem gera as recomendações é um agente [Agno](https://docs.agno.com) rodando sobre o Anthropic Claude. Prompts, descrições de campos, mensagens da API e a saída do agente estão todos em **português (pt-BR)**, então todo texto novo voltado ao usuário e todo conteúdo de prompt também deve ser escrito em português.
 
-O README está desatualizado: ele cita OpenAI, `requirements.txt` e uma pasta `prompts/` na raiz. Na dúvida, confie no código. O provedor do modelo é a Anthropic e as dependências são gerenciadas com `uv`.
+O `README.md` é a apresentação do projeto para quem visita o repositório; o `spec.md` traz o contrato da API, as regras de negócio e as decisões de arquitetura. Ao mudar comportamento (campos da resposta, regras, cache, integração com o OMDb), atualize o `spec.md` junto. O provedor do modelo é a Anthropic e as dependências são gerenciadas com `uv`.
 
 ## Comandos
 
